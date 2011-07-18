@@ -406,6 +406,7 @@ void
 AtroposSegmentationImageFilter<TInputImage, TMaskImage, TClassifiedImage>
 ::GenerateData()
 {
+  this->GenerateInitialClassLabeling();
   typename SampleType::Pointer sample = SampleType::New();
   sample = this->GetScalarSamples();
   unsigned long totalSampleSize = sample->Size();
