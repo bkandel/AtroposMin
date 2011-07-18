@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/advants/!svn/ver/891/Temporary
+END
+itkFEMElement3DC0LinearTriangularLaplaceBeltrami.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DC0LinearTriangularLaplaceBeltrami.h
+END
+itkFEMConformalMap.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMConformalMap.cxx
+END
+itkDivideByConstantImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/advants/!svn/ver/514/Temporary/itkDivideByConstantImageFilter.h
+END
+itkFEMDiscConformalMap.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/advants/!svn/ver/578/Temporary/itkFEMDiscConformalMap.cxx
+END
+itkDensityFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/advants/!svn/ver/591/Temporary/itkDensityFunction.h
+END
+itkFEMElement3DMembrane1DOF.txx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DMembrane1DOF.txx
+END
+itkFEMElement3DC0LinearTriangularMembrane.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DC0LinearTriangularMembrane.h
+END
+itkFEMElement3DMembrane1DOF.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DMembrane1DOF.h
+END
+itkFEMElement3DC0LinearTriangular.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DC0LinearTriangular.cxx
+END
+itkFEMElement3DC0LinearTriangularLaplaceBeltrami.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/advants/!svn/ver/538/Temporary/itkFEMElement3DC0LinearTriangularLaplaceBeltrami.cxx
+END
+topological_numbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/advants/!svn/ver/294/Temporary/topological_numbers.h
+END
+itkFEMElement3DC0LinearTriangularMembrane.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DC0LinearTriangularMembrane.cxx
+END
+itkManifoldIntegrationAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/advants/!svn/ver/578/Temporary/itkManifoldIntegrationAlgorithm.h
+END
+itkDijkstrasAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/advants/!svn/ver/571/Temporary/itkDijkstrasAlgorithm.h
+END
+itkFEMConformalMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/advants/!svn/ver/572/Temporary/itkFEMConformalMap.h
+END
+itkFEMDiscConformalMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/advants/!svn/ver/578/Temporary/itkFEMDiscConformalMap.h
+END
+itkFastMarchingImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/advants/!svn/ver/528/Temporary/itkFastMarchingImageFilter.txx
+END
+itkAddConstantToImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/advants/!svn/ver/514/Temporary/itkAddConstantToImageFilter.h
+END
+itkFEMElement3DC0LinearTriangular.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/advants/!svn/ver/518/Temporary/itkFEMElement3DC0LinearTriangular.h
+END
+itkFastMarchingImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/advants/!svn/ver/528/Temporary/itkFastMarchingImageFilter.h
+END
+itkManifoldIntegrationAlgorithm.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/advants/!svn/ver/582/Temporary/itkManifoldIntegrationAlgorithm.cxx
+END
+itkDijkstrasAlgorithm.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/518/Temporary/itkDijkstrasAlgorithm.cxx
+END

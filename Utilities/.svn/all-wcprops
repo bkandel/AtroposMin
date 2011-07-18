@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/advants/!svn/ver/903/Utilities
+END
+itkGaussianProbabilityDensityFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/advants/!svn/ver/514/Utilities/itkGaussianProbabilityDensityFunction.h
+END
+ReadWriteImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/advants/!svn/ver/536/Utilities/ReadWriteImage.h
+END
+antsCommandLineParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/advants/!svn/ver/756/Utilities/antsCommandLineParser.h
+END
+itkAverageAffineTransformFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/advants/!svn/ver/903/Utilities/itkAverageAffineTransformFunction.txx
+END
+itkDiReCTImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/advants/!svn/ver/843/Utilities/itkDiReCTImageFilter.h
+END
+itkSurfaceCurvatureBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/514/Utilities/itkSurfaceCurvatureBase.h
+END
+itkWarpTensorImageMultiTransformFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/advants/!svn/ver/891/Utilities/itkWarpTensorImageMultiTransformFilter.h
+END
+itkWarpImageMultiTransformFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/advants/!svn/ver/890/Utilities/itkWarpImageMultiTransformFilter.txx
+END
+itkAverageAffineTransformFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/advants/!svn/ver/903/Utilities/itkAverageAffineTransformFunction.h
+END
+itkSurfaceImageCurvature.txx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/advants/!svn/ver/786/Utilities/itkSurfaceImageCurvature.txx
+END
+itkComposeDiffeomorphismsImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/advants/!svn/ver/891/Utilities/itkComposeDiffeomorphismsImageFilter.txx
+END
+itkOptimalSharpeningImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/advants/!svn/ver/514/Utilities/itkOptimalSharpeningImageFilter.txx
+END
+itkWarpImageMultiTransformFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/advants/!svn/ver/890/Utilities/itkWarpImageMultiTransformFilter.h
+END
+itkSurfaceImageCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/advants/!svn/ver/514/Utilities/itkSurfaceImageCurvature.h
+END
+itkOptimalSharpeningImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/advants/!svn/ver/514/Utilities/itkOptimalSharpeningImageFilter.h
+END
+itkComposeDiffeomorphismsImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/advants/!svn/ver/891/Utilities/itkComposeDiffeomorphismsImageFilter.h
+END
+BinaryImageToMeshFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/519/Utilities/BinaryImageToMeshFilter.h
+END
+itkSurfaceMeshCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/559/Utilities/itkSurfaceMeshCurvature.h
+END
+antsCommandLineOption.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/598/Utilities/antsCommandLineOption.cxx
+END
+antsMatrixUtilities.txx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/advants/!svn/ver/829/Utilities/antsMatrixUtilities.txx
+END
+itkDecomposeTensorFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/advants/!svn/ver/809/Utilities/itkDecomposeTensorFunction.txx
+END
+itkDeformationFieldFromMultiTransformFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/advants/!svn/ver/903/Utilities/itkDeformationFieldFromMultiTransformFilter.h
+END
+itkVectorGaussianInterpolateImageFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/advants/!svn/ver/514/Utilities/itkVectorGaussianInterpolateImageFunction.h
+END
+itkWarpImageWAffineFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/advants/!svn/ver/891/Utilities/itkWarpImageWAffineFilter.txx
+END
+antsMatrixUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/advants/!svn/ver/871/Utilities/antsMatrixUtilities.h
+END
+itkDecomposeTensorFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/advants/!svn/ver/514/Utilities/itkDecomposeTensorFunction.h
+END
+itkWarpImageWAffineFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/advants/!svn/ver/891/Utilities/itkWarpImageWAffineFilter.h
+END
+itkLabelOverlapMeasuresImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/advants/!svn/ver/891/Utilities/itkLabelOverlapMeasuresImageFilter.txx
+END
+itkVectorImageFileReader.txx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/advants/!svn/ver/687/Utilities/itkVectorImageFileReader.txx
+END
+itkLabelOverlapMeasuresImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/advants/!svn/ver/891/Utilities/itkLabelOverlapMeasuresImageFilter.h
+END
+itkVectorImageFileReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/advants/!svn/ver/585/Utilities/itkVectorImageFileReader.h
+END
+itkN3MRIBiasFieldCorrectionImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/advants/!svn/ver/809/Utilities/itkN3MRIBiasFieldCorrectionImageFilter.txx
+END
+itkVectorFieldGradientImageFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/advants/!svn/ver/863/Utilities/itkVectorFieldGradientImageFunction.txx
+END
+itkGaussianInterpolateImageFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/advants/!svn/ver/514/Utilities/itkGaussianInterpolateImageFunction.h
+END
+itkGeneralToBSplineDeformationFieldFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/advants/!svn/ver/66/Utilities/itkGeneralToBSplineDeformationFieldFilter.txx
+END
+itkN3MRIBiasFieldCorrectionImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/advants/!svn/ver/794/Utilities/itkN3MRIBiasFieldCorrectionImageFilter.h
+END
+antsCommandLineParser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/advants/!svn/ver/794/Utilities/antsCommandLineParser.cxx
+END
+itkLabeledPointSetFileReader.txx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/advants/!svn/ver/871/Utilities/itkLabeledPointSetFileReader.txx
+END
+antsCommandLineOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/advants/!svn/ver/598/Utilities/antsCommandLineOption.h
+END
+itkVectorFieldGradientImageFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/advants/!svn/ver/514/Utilities/itkVectorFieldGradientImageFunction.h
+END
+itkVectorImageFileWriter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/advants/!svn/ver/687/Utilities/itkVectorImageFileWriter.txx
+END
+itkGeneralToBSplineDeformationFieldFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/advants/!svn/ver/514/Utilities/itkGeneralToBSplineDeformationFieldFilter.h
+END
+itkLabeledPointSetFileReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/advants/!svn/ver/514/Utilities/itkLabeledPointSetFileReader.h
+END
+itkVectorImageFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/advants/!svn/ver/514/Utilities/itkVectorImageFileWriter.h
+END
+itkLabeledPointSetFileWriter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/advants/!svn/ver/888/Utilities/itkLabeledPointSetFileWriter.txx
+END
+itkPointSetFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/advants/!svn/ver/514/Utilities/itkPointSetFunction.txx
+END
+itkLabeledPointSetFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/advants/!svn/ver/514/Utilities/itkLabeledPointSetFileWriter.h
+END
+itkPointSetFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/advants/!svn/ver/606/Utilities/itkPointSetFunction.h
+END
+itkManifoldParzenWindowsPointSetFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/advants/!svn/ver/615/Utilities/itkManifoldParzenWindowsPointSetFunction.txx
+END
+itkGaussianProbabilityDensityFunction.txx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/advants/!svn/ver/687/Utilities/itkGaussianProbabilityDensityFunction.txx
+END
+itkDiReCTImageFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/advants/!svn/ver/900/Utilities/itkDiReCTImageFilter.txx
+END
+itkMultiplyByConstantVectorImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/advants/!svn/ver/839/Utilities/itkMultiplyByConstantVectorImageFilter.h
+END
+itkManifoldParzenWindowsPointSetFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/advants/!svn/ver/862/Utilities/itkManifoldParzenWindowsPointSetFunction.h
+END
+itkSurfaceCurvatureBase.txx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/advants/!svn/ver/786/Utilities/itkSurfaceCurvatureBase.txx
+END
+itkWarpTensorImageMultiTransformFilter.txx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/advants/!svn/ver/891/Utilities/itkWarpTensorImageMultiTransformFilter.txx
+END
