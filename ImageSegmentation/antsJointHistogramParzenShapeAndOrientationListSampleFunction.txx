@@ -217,16 +217,25 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
   RealType tp[2];
   tp[1] = 0.0;
 
+  // If eigenvector has negative x, we reflect it about the origin.
+  // We do this to avoid redundancy in representation of the eigenvectors, 
+  // because they are all redundant.  
+
+  if ( x < 0 ) 
+   {  
+     x*=-1; 
+     y*=-1; 
+     z*=-1;
+   }
+
+
   tp[0] = vcl_acos( z );
 
-   // phi goes from 0.0 (+x axis) and wraps at 2 * PI
+   // phi goes from 0.0 (+x axis) and goes to -pi/2 and pi/2.
    // theta goes from 0.0 (+z axis) and wraps at PI
    // if x and y are 0.0 or very close, return phi == 0
    // we do this to eliminate redundancy in the distribution of orientations.
-   if ( x < 0 ) 
-   {  
-     x*=-1; y*=-1; z*=-1;
-   }
+
    if( vnl_math_abs( x ) + vnl_math_abs( y ) < 1e-9 )
      {
      tp[1] = 0.0;
