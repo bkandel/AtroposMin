@@ -284,7 +284,7 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
      }
    RealType psi = tp[0];
    RealType theta = tp[1];
-std::cout <<" psi " << psi << " theta " << theta << " x " << x << " y " << y << " z " << z << std::endl;
+//std::cout <<" psi " << psi << " theta " << theta << " x " << x << " y " << y << " z " << z << " norm " << x * x + y * y + z * z<< std::endl;
   // note, if a point maps to 0 or 2*pi then it should contribute to both bins -- pretty much only difference between this function and matlab code is the next 15 or so lines, as far as we see
   orientPoint[0] = psi / (vnl_math::pi ) *
     ( this->m_NumberOfJointHistogramBins - 1) + 1;
@@ -538,7 +538,7 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
     eigenvalue1 /= ( this->m_MaximumEigenvalue1 - this->m_MinimumEigenvalue1 );
     eigenvalue2 /= ( this->m_MaximumEigenvalue2 - this->m_MinimumEigenvalue2 );
 
-    std::cout << " ev1 " << eigenvalue1 << " oev1 " << W(2,2) << " ev2 " << eigenvalue2 << " oev2 " << W(1,1) << std::endl;
+//    std::cout << " ev1 " << eigenvalue1 << " oev1 " << W(2,2) << " ev2 " << eigenvalue2 << " oev2 " << W(1,1) << std::endl;
 
     /** joint-hist model for the eigenvalues */
     this->IncrementJointHistogramForShape( eigenvalue1,eigenvalue2 );
