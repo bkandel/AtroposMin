@@ -37,9 +37,9 @@ template <class TListSample, class TOutput, class TCoordRep>
 JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, TCoordRep>
 ::JointHistogramParzenShapeAndOrientationListSampleFunction()
 {
-  this->m_NumberOfJointHistogramBins = 32;
+  this->m_NumberOfJointHistogramBins = 64;
   this->m_Sigma = 1.0;
-  this->m_UseNearestNeighborIncrements = false;
+  this->m_UseNearestNeighborIncrements = true;
   this->m_MaximumEigenvalue1 = 0;
   this->m_MaximumEigenvalue2 = 0;
   this->m_MinimumEigenvalue1 = 0.1;
@@ -284,11 +284,13 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
      }
    RealType psi = tp[0];
    RealType theta = tp[1];
-//std::cout <<" psi " << psi << " theta " << theta << " x " << x << " y " << y << " z " << z << " norm " << x * x + y * y + z * z<< std::endl;
-  // note, if a point maps to 0 or 2*pi then it should contribute to both bins -- pretty much only difference between this function and matlab code is the next 15 or so lines, as far as we see
+   
+   std::cout << " psi " << psi << " theta " << theta  << std::endl;
+  
+// note, if a point maps to 0 or 2*pi then it should contribute to both bins -- pretty much only difference between this function and matlab code is the next 15 or so lines, as far as we see
   orientPoint[0] = psi / (vnl_math::pi ) *
     ( this->m_NumberOfJointHistogramBins - 1) + 1;
-  orientPoint[1] = ( theta + vnl_math::pi/2.0 ) / vnl_math::pi *
+  orientPoint[1] = ( theta + vnl_math::pi_over_2 ) / vnl_math::pi *
     ( this->m_NumberOfJointHistogramBins - 1 );
 
   ContinuousIndex<double, 2> orientCidx;
@@ -538,24 +540,27 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
     eigenvalue1 /= ( this->m_MaximumEigenvalue1 - this->m_MinimumEigenvalue1 );
     eigenvalue2 /= ( this->m_MaximumEigenvalue2 - this->m_MinimumEigenvalue2 );
 
-//    std::cout << " ev1 " << eigenvalue1 << " oev1 " << W(2,2) << " ev2 " << eigenvalue2 << " oev2 " << W(1,1) << std::endl;
+    std::cout << " ev1 " << eigenvalue1 << " oev1 " << W(2,2) << " ev2 " << eigenvalue2 << " oev2 " << W(1,1) << std::endl;
 
     /** joint-hist model for the eigenvalues */
     this->IncrementJointHistogramForShape( eigenvalue1,eigenvalue2 );
 
-    RealType x = V(2, 0);
-    RealType y = V(2, 1);
+    RealType x = V(0, 2);
+    RealType y = V(1, 2);
     RealType z = V(2, 2);
+
     /** joint-hist model for the principal eigenvector */
     this->IncrementJointHistogramForOrientation( x, y, z, 1 );
-    x = V(1, 0);
+    x = V(0, 1);
     y = V(1, 1);
-    z = V(1, 2);
+    z = V(2, 1);
     /** joint-hist model for the second eigenvector */
     this->IncrementJointHistogramForOrientation( x, y, z, 2 );
 
     ++It;
     }
+    
+    
 
   for( unsigned int d = 0; d < 3; d++ )
     {
@@ -580,19 +585,31 @@ JointHistogramParzenShapeAndOrientationListSampleFunction<TListSample, TOutput, 
     divider->SetConstant( stats->GetSum() );
     divider->Update();
     this->m_JointHistogramImages[d] = divider->GetOutput();
-
-    typedef ImageFileWriter<JointHistogramImageType> WriterType;
-    typename WriterType::Pointer writer = WriterType::New();
-    writer->SetInput( this->m_JointHistogramImages[d] );
-
-    std::ostringstream which;
-    which << d;
-
-    std::string filename = std::string( "hist" ) + which.str() + std::string( ".nii.gz" );
-
-    writer->SetFileName( filename.c_str() );
-    writer->Update();;
+        
     }
+    
+    //zpf Define static variable which_class and convert to string
+    static int which_class=0;
+    which_class++;
+	std::string string;
+	std::stringstream outstring;
+	outstring<<which_class;
+	string=outstring.str();
+    // Imagewriter 
+    typedef ImageFileWriter< JointHistogramImageType >  WriterType;
+	typename WriterType::Pointer      writer = WriterType::New();
+	
+	std::string output( "output_shape"+string+".nii.gz" );
+	writer->SetFileName( output.c_str() );
+	writer->SetInput(this->m_JointHistogramImages[0] );
+	writer->Update();
+    
+	typedef ImageFileWriter< JointHistogramImageType >  WriterType2;
+	typename WriterType2::Pointer      writer2 = WriterType::New();
+	std::string output2( "output_orientation"+string+".nii.gz" );
+	writer2->SetFileName( output2.c_str() );
+	writer2->SetInput(this->m_JointHistogramImages[1] );
+	writer2->Update();
 }
 
 template <class TListSample, class TOutput, class TCoordRep>
